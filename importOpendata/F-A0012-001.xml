@@ -1,0 +1,4242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cwbopendata xmlns="urn:cwb:gov:tw:cwbcommon:0.1">
+    <identifier >cf0d228a-7d69-7875-d867-54226050563b</identifier>
+    <sender >weather@cwb.gov.tw</sender>
+    <sent >2018-08-13T10:12:08+08:00</sent>
+    <status >Actual</status>
+    <msgType >Issue</msgType>
+    <source >MFC</source>
+    <dataid >A0012-001</dataid>
+    <scope >Public</scope>
+    <dataset >
+        <datasetInfo>
+            <datasetDescription>海面天氣預報</datasetDescription>
+            <issueTime>2018-08-13T10:30:00+08:00</issueTime>
+            <update>2018-08-13T10:12:08+08:00</update>
+</datasetInfo>
+        <location>
+            <locationName>釣魚台海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲時陰局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲時陰局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東南轉偏東風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東轉東北風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東北轉偏西風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級下午轉5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6雷雨區陣風9級上午轉4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級上午轉5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>彭佳嶼基隆海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東南轉偏東風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東轉東北風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東北轉偏西風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級上午轉4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級晨轉5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>宜蘭蘇澳沿海</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲時陰局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東轉西北風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西北轉偏西風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級晨轉4至5雷雨區陣風8級上午再轉4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級晨轉4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>新竹鹿港沿海</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南轉偏東風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東轉偏北風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏北轉西南風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級晨轉4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級晨轉4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>澎湖海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南轉西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南轉偏西風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級下午轉4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級晨轉4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>鹿港東石沿海</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南轉西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級晨轉4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2轉3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪轉大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>東石安平沿海</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南轉西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>安平高雄沿海</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南轉西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南轉偏西風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級下午轉4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>高雄枋寮沿海</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南轉偏南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南轉西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南轉偏西風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級晚轉4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級下午轉4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3轉4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>枋寮恆春沿海</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲時陰局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南轉偏西風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏西風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級晚轉4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級上午轉4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3轉4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>鵝鑾鼻沿海</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲時陰局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南轉偏西風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級晨轉5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3轉4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3至4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>成功臺東沿海</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南轉偏北風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏北轉西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級陣風6級以下下午轉4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>臺東大武沿海</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南轉偏西風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏西風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏西風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6雷雨區陣風9級晚轉4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級晨轉5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2轉3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪轉大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>綠島蘭嶼海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南轉偏西風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏西轉西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6雷雨區陣風9級晨轉6至7雷雨區陣風10級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3轉4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3至4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>花蓮沿海</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東北轉偏北風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏北轉偏南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南轉西南風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級下午轉4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級晨轉4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2轉3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪轉大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>金門海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲時陰局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東南轉偏東風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東轉西南風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2轉3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪轉大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>馬祖海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南轉偏東風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東轉東北風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東北轉偏北風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級下午轉4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>1至2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>小浪至中浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>黃海南部海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東南轉偏東風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東轉東北風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6至7陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6至7陣風9級晨轉5至6陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6陣風8級晨轉5至6雷雨區陣風9級上午再轉4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3至4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4轉3再轉2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2轉3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪轉中浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪轉大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>花鳥山海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東南轉偏東風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6至7雷雨區陣風10級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6至7陣風9級晨轉5至6陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6陣風8級晨轉5至6雷雨區陣風9級下午再轉6至7雷雨區陣風10級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5轉4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4轉3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>浙江海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東南轉偏東風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東轉東南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東南轉偏東風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6至7雷雨區陣風10級下午轉5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6雷雨區陣風9級下午轉4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級晨轉4級以下雷雨區陣風8級下午再轉4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5轉4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4轉3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3轉2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪轉中浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>東海北部海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>晴時多雲</parameterName>
+                        <parameterValue>8</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲時陰局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東南轉偏東風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6至7陣風9級下午轉5至6陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6陣風8級晨轉6至7雷雨區陣風10級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5轉4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4轉3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>東海南部海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東南轉偏東風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東轉東南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東南轉偏東風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6陣風8級晨轉5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6雷雨區陣風9級晨轉4至5雷雨區陣風8級上午再轉4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5轉4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4轉3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3轉2公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪轉中浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>臺灣北部海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南轉偏東風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東轉東北風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>東北轉偏西風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級晚轉5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>臺灣東北部海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲時陰局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏東轉偏西風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏西轉西南風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級晚轉4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級晚轉5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3轉4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>臺灣東南部海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南轉偏西風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏西轉西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6雷雨區陣風9級晨轉6至7雷雨區陣風10級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3轉4再轉5公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>臺灣海峽北部</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南轉偏西風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級晨轉4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3轉4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>臺灣海峽南部</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>陰時多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>36</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南轉偏南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南轉西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南轉偏西風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5雷雨區陣風8級上午轉4級以下雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4級以下雷雨區陣風8級晨轉4至5雷雨區陣風8級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>2至3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3轉4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3至4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>中浪至大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>巴士海峽</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南轉偏南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南轉西南風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5至6雷雨區陣風9級下午轉6至7雷雨區陣風10級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6至7雷雨區陣風10級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6至7雷雨區陣風10級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3至4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>3至4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4轉5公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>廣東海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏南轉偏西風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏西風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>偏西轉西南風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>7至8陣風10級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>7至8陣風10級下午轉8至9陣風11級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>8至9陣風11級晨轉7至8陣風10級下午再轉5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5轉6公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6轉4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪轉巨浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>巨浪轉大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>東沙島海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>7至8陣風10級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>7至8陣風10級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>7至8陣風10級晨轉6至7雷雨區陣風10級上午再轉5至6雷雨區陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4轉5公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5轉6公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6轉5再轉4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪轉巨浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>巨浪轉大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>中西沙島海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6至7雷雨區陣風10級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6至7雷雨區陣風10級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6至7雷雨區陣風10級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5轉4公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>南沙島海面</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>多雲局部陣雨或雷雨</parameterName>
+                        <parameterValue>17</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindDir</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>西南風</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WindSpeed</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6至7陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6至7陣風9級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>6至7陣風9級晨轉6至7雷雨區陣風10級</parameterName>
+                        <parameterUnit>蒲伏風級</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveHeight</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>4至5公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>5轉4再轉3公尺</parameterName>
+                        <parameterUnit>公尺</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>WaveType</elementName>
+                <time>
+                    <startTime>2018-08-13T12:00:00+08:00</startTime>
+                    <endTime>2018-08-14T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-14T00:00:00+08:00</startTime>
+                    <endTime>2018-08-15T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-08-15T00:00:00+08:00</startTime>
+                    <endTime>2018-08-16T00:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>大浪</parameterName>
+</parameter>
+</time>
+</weatherElement>
+</location>
+</dataset>
+</cwbopendata>

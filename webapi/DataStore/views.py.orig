@@ -1,0 +1,367 @@
+# -*- coding: utf-8 -*-
+from __future__ import unicode_literals
+
+import sys
+import urllib
+
+import requests
+from django_filters import rest_framework as filters
+from django.core.exceptions import ObjectDoesNotExist
+from rest_framework import serializers
+from rest_framework.response import Response
+from rest_framework.exceptions import NotFound, ValidationError
+
+from Manage.serializers import DatapointSerializer
+from qiange.funcs import calculate_dis
+from qiange.related_fields import _reverse
+
+from Manage.models import ViewPoint, View, Dataset, STATION_ID, LOCATION_NAME, Datapoint
+
+from DataStore.models import Gt
+from DataStore.models import Aquaculture
+from DataStore.models import Buoy
+from DataStore.models import Fishing
+from DataStore.models import Harbor
+from DataStore.models import Marine
+from DataStore.models import Stationdaylight
+from DataStore.models import Stcfor
+from DataStore.models import Stobs
+from DataStore.models import Tide
+from DataStore.models import ObserveDatum
+from DataStore.models import Ocm3
+from DataStore.models import Nww3Wrf
+from DataStore.models import STwarn
+
+from DataStore.serializers import GtSerializer
+from DataStore.serializers import AquaCultureSerializer
+from DataStore.serializers import BuoySerializer
+from DataStore.serializers import FishingSerializer
+from DataStore.serializers import HarborSerializer
+from DataStore.serializers import MarineSerializer
+from DataStore.serializers import StationDaylightSerializer
+from DataStore.serializers import STCForSerializer
+from DataStore.serializers import STObsSerializer
+from DataStore.serializers import TideSerializer
+from DataStore.serializers import ObserveDatumSerializer
+from DataStore.serializers import Nww3WrfSerializer
+from DataStore.serializers import Ocm3Serializer
+from DataStore.serializers import STwarnSerializer
+
+from DataStore.filtersets import (
+    GtFilterSet,
+    AquaCultureFilterSet,
+    MarineFilterSet,
+    BuoyFilterSet,
+    FishingFilterSet,
+    HarborFilterSet,
+    StationdaylightFilterSet,
+    TideFilterSet,
+    ObserveDatumFilterSet,
+    Ocm3FilterSet,
+    Nww3WrfFilterSet,
+    STwarnFilterSet
+)
+
+from qiange.views import CustListView
+
+
+class GtViewSet(CustListView):
+    queryset = Gt.objects.all()
+    serializer_class = GtSerializer
+    filter_class = GtFilterSet
+
+
+class AquaCultureViewSet(CustListView):
+    queryset = Aquaculture.objects.all()
+    serializer_class = AquaCultureSerializer
+    filter_class = AquaCultureFilterSet
+
+
+class BuoyViewSet(CustListView):
+    queryset = Buoy.objects.all()
+    serializer_class = BuoySerializer
+    filter_class = BuoyFilterSet
+
+
+class FishingViewSet(CustListView):
+    queryset = Fishing.objects.all()
+    serializer_class = FishingSerializer
+    filter_class = FishingFilterSet
+
+
+class HarborViewSet(CustListView):
+    queryset = Harbor.objects.all()
+    serializer_class = HarborSerializer
+    filter_class = HarborFilterSet
+
+
+class MarineViewSet(CustListView):
+    queryset = Marine.objects.all()
+    serializer_class = MarineSerializer
+    filter_class = MarineFilterSet
+
+
+class StationDaylightViewSet(CustListView):
+    queryset = Stationdaylight.objects.all()
+    serializer_class = StationDaylightSerializer
+    filter_class = StationdaylightFilterSet
+
+
+class STCForViewSet(CustListView):
+    queryset = Stcfor.objects.all()
+    serializer_class = STCForSerializer
+
+    class STCForFilter(filters.FilterSet):
+        time_start = filters.DateTimeFilter(name='time', lookup_expr='gte', label='time_start', required=True)
+        time_end = filters.DateTimeFilter(name='time', lookup_expr='lte', label='time_end', required=True)
+
+        class Meta:
+            model = Stcfor
+            fields = ['time_start', 'time_end']
+
+    filter_class = STCForFilter
+
+
+class STObsViewSet(CustListView):
+    queryset = Stobs.objects.all()
+    serializer_class = STObsSerializer
+
+    class STObsFilter(filters.FilterSet):
+        time_start = filters.DateTimeFilter(name='time', lookup_expr='gte', label='time_start', required=True)
+        time_end = filters.DateTimeFilter(name='time', lookup_expr='lte', label='time_end', required=True)
+
+        class Meta:
+            model = Stobs
+            fields = ['time_start', 'time_end']
+
+    filter_class = STObsFilter
+
+
+class TideViewSet(CustListView):
+    queryset = Tide.objects.all()
+    serializer_class = TideSerializer
+    filter_class = TideFilterSet
+
+
+class ObserveDatumViewSet(CustListView):
+    queryset = ObserveDatum.objects.all()
+    serializer_class = ObserveDatumSerializer
+    filter_class = ObserveDatumFilterSet
+
+
+class Ocm3ViewSet(CustListView):
+    queryset = Ocm3.objects.all()
+    serializer_class = Ocm3Serializer
+    filter_class = Ocm3FilterSet
+
+
+class Nww3WrfViewSet(CustListView):
+    queryset = Nww3Wrf.objects.all()
+    serializer_class = Nww3WrfSerializer
+    filter_class = Nww3WrfFilterSet
+
+
+class STWarnViewSet(CustListView):
+    queryset = STwarn.objects.all()
+    serializer_class = STwarnSerializer
+    filter_class = STwarnFilterSet
+
+
+from rest_framework.reverse import reverse
+from qiange.drf_reqparser import RequestParser, str2dt_tztaipei
+
+time_start, time_end = 'time_start', 'time_end'
+
+
+class DataViewSet(CustListView):
+    """進階查詢：
+        view_id: 顯示點的ID;
+        dataset_name: 要查詢的資料集名稱;
+        query_parameters: 選擇性查詢參數與基礎查詢API同;
+    """
+    from rest_framework import serializers
+    from django_filters import rest_framework as filters
+
+    class UselessSerializer(serializers.Serializer):
+        def to_representation(self, instance):
+            return instance
+
+    class FilterSet(filters.FilterSet):
+        # dataset_name = filters.CharFilter(required=True, help_text=u'要查詢的資料集名稱。')
+        # view_id = filters.BaseInFilter(required=True, help_text=u'顯示點ID。')
+        time_start = filters.DateTimeFilter(help_text=u'資料開始時間，ISO格式。')
+        time_end = filters.DateTimeFilter(help_text=u'資料結束時間，ISO格式。')
+        token = filters.CharFilter(help_text=u'合法的 JWToken。')
+        depth = filters.CharFilter(help_text=u'海洋資料的深度。')
+        ordering = filters.CharFilter(help_text=u'排序的欄位和方法，與基礎查詢API同')
+
+    request_parser = RequestParser()
+    # request_parser.add_argument('dataset_name', type=unicode, required=True, default=None)
+    # request_parser.add_argument('view_id', type=int, required=True, default=None)
+    request_parser.add_argument(time_start, type=str2dt_tztaipei, required=False, default=None)
+    request_parser.add_argument(time_end, type=str2dt_tztaipei, required=False, default=None)
+
+    serializer_class = UselessSerializer
+    filter_class = FilterSet
+
+    def get_queryset(self):
+        return Gt.objects.all()
+
+    def get_data_source_endpoint(self, request, table_name):
+        end_point = reverse(table_name.lower() + '-list', request=request)
+        return end_point
+
+    def list(self, request, view_id, dataset_name, *args, **kwargs):
+        incoming = self.request_parser.parse_args(request.query_params)
+        # view_id = incoming['view_id']
+        # dataset_name = incoming['dataset_name']
+        try:
+            view = View.objects.get(id=int(view_id))
+        except ObjectDoesNotExist as e:
+            raise ValidationError({'view_id': [u"顯示點 '%s' 不存在。" % view_id]})
+        try:
+            dataset = Dataset.objects.get(dataset_name=dataset_name)
+        except ObjectDoesNotExist as e:
+            raise ValidationError({'dataset_name': [u"資料集 '%s' 不存在。" % dataset_name]})
+
+        viewpoints = ViewPoint.objects.filter(view=view, dataset=dataset)
+        if not viewpoints.exists():
+            raise ValidationError({'view_id__dataset_name':
+                                       [u"顯示點 '%s' 沒有在資料集 '%s' 中綁定任何資料點。" % (view_id, dataset_name)],})
+
+        metadata = {
+            'view_id': view.id,
+            'dataset_name': dataset_name,
+            'viewpoints': [_reverse(viewname='viewpoint-detail', args=[viewpoint.id], request=request)
+                           for viewpoint in viewpoints],
+        }
+        if incoming.get(time_start):
+            metadata.update({time_start: incoming[time_start]})
+        if incoming.get(time_end):
+            metadata.update({time_end: incoming[time_end]})
+
+        url = self.get_data_source_endpoint(request, dataset_name) + '?' + request.GET.urlencode() + '&'
+        dataset_category = dataset.category
+        for viewpoint in viewpoints:
+            if dataset_category == 'Grid':
+                url += 'point_ids=%s&' % viewpoint.id
+            else:
+                url += 'point_ids=%s&' % urllib.quote(viewpoint.datapoint.point_id.encode('utf8'))
+
+        metadata.update(base_query=url)
+        url = url.replace('127.0.0.1', 'localhost')
+        try:
+            res = requests.get(
+                url,
+                cookies={'sessionid': request.COOKIES['sessionid']} if 'sessionid' in request.COOKIES else {},
+                headers={'Authorization': request.META.get('Authorization')},
+            )
+        except Exception:
+            raise NotFound(u"GET '%s' Fail." % url)
+
+        try:
+            _json = res.json()
+        except Exception:
+            _json = res.text
+        if res.status_code == 200:
+            _json = {
+                'metadata': metadata,
+                'data': _json['data'] if isinstance(_json, dict) and _json.has_key('data') else _json,
+            }
+
+        return Response(_json, status=res.status_code)
+
+
+class NearestDataPointsView(CustListView):
+    """從資料集中（限單點資料），根據參數找出最近資料點"""
+
+    class UselessSerializer(serializers.Serializer):
+        def to_representation(self, instance):
+            return instance
+
+    class FilterSet(filters.FilterSet):
+        # dataset_name = filters.CharFilter(required=True, help_text=u'要查詢的資料集名稱。')
+        view_id = filters.CharFilter(help_text=u'顯示點ID，顯示點必須具有lat/lng屬性。')
+        lat = filters.NumberFilter(help_text=u'緯度， 與 lng 參數找最近的資料點。')
+        lng = filters.NumberFilter(help_text=u'經度，與 lat 參數找最近的資料點。')
+        token = filters.NumberFilter(help_text=u'合法的JWToken')
+
+    request_parser = RequestParser()
+    # request_parser.add_argument('dataset_name', type=unicode, required=True, default=None)
+    request_parser.add_argument('view_id', type=int, required=False, default=None)
+    request_parser.add_argument('lat', type=float, required=False, default=None)
+    request_parser.add_argument('lng', type=float, required=False, default=None)
+
+    serializer_class = UselessSerializer
+    filter_class = FilterSet
+
+    def get_queryset(self):
+        return Datapoint.objects.all()
+
+    def list(self, request, dataset_name, *args, **kwargs):
+        incoming = self.request_parser.parse_args(request.query_params)
+
+        try:
+            # dataset_name = incoming['dataset_name']
+            dataset = Dataset.objects.get(dataset_name=dataset_name)
+        except ObjectDoesNotExist:
+            raise ValidationError({'dataset_name': [u"資料集 '%s' 不存在." % dataset_name]})
+
+        view_id = incoming['view_id']
+        if view_id is not None:
+            try:
+                view = View.objects.get(id=view_id)
+                lat, lng = view.lat, view.lng
+            except ObjectDoesNotExist:
+                raise ValidationError({'view_id': [u"顯示點 '%s' 不存在." % view_id]})
+            if lat is None:
+                raise ValidationError({'view.lat': ["The attribute 'lat' of view '%s' could not be empty value." % view_id]})
+            if lng is None:
+                raise ValidationError({'view.lng': ["The attribute 'lng' of view '%s' could not be empty value." % view_id]})
+        else:
+            from Manage.serializers import ViewSerializer
+            lat = incoming['lat']
+            lng = incoming['lng']
+            try:
+                ViewSerializer.validate_lat(lat)
+            except ValidationError as e:
+                raise ValidationError({'lat': e.detail})
+            try:
+                ViewSerializer.validate_lng(lng)
+            except ValidationError as e:
+                raise ValidationError({'lng': e.detail})
+
+        dataset_category = dataset.category
+        if dataset_category != 'Single':
+            raise ValidationError({'dataset': [u"無法對非 'Single' 類型的資料集取最近點."]})
+
+        strategy_name = dataset.datapoint_strategies.first().strategy_name
+        if strategy_name == STATION_ID:
+            datapoint, distance, dis2 = None, sys.maxint, sys.maxint
+            for p1 in dataset.datapoint_set.all():
+                if p1.lat is not None and p1.lng is not None:
+                    dis2 = calculate_dis(lng, lat, p1.lng, p1.lat)
+                if dis2 < distance:
+                    datapoint, distance = p1, dis2
+            if not datapoint:
+                raise ValidationError("NotFound any datapoint in dataset '%s'" % dataset.dataset_name)
+        elif strategy_name == LOCATION_NAME:
+            sql = """
+            SELECT *, id from info_datapoint
+            WHERE CONTAINS(`multi_poly`, Point({lng}, {lat}));
+            """.format(lng=lng, lat=lat)
+
+            datapoints = [point for point in Datapoint.objects.raw(sql)]
+            if not datapoints:
+                raise NotFound("The Point(%s, %s) was not completely contained by any MultiPolygon" % (lng, lat))
+            datapoint = datapoints[0]
+        else:
+            raise NotFound("Unknow datapoint_strategy '%s'" % strategy_name)
+
+<<<<<<< /home/crsadm/dev/webapi/DataStore/views.py
+        data = DatapointSerializer(datapoint, context=self.get_serializer_context()).data
+        return Response(data)
+=======
+        res = Response(DatapointSerializer(datapoint, context=self.get_serializer_context()).data)
+        return res
+>>>>>>> /tmp/views.py~other.1Jefi1

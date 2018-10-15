@@ -1,0 +1,1 @@
+alias hg="hg --config 'ui.username=chun-chieh chao,IISI <chunchieh0617@gmail.com>'"

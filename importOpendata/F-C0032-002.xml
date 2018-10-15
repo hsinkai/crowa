@@ -1,0 +1,2992 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cwbopendata xmlns="urn:cwb:gov:tw:cwbcommon:0.1">
+    <identifier >fe17bc5d-ab53-f978-63d6-09dc3f65e32c</identifier>
+    <sender >weather@cwb.gov.tw</sender>
+    <sent >2018-06-04T10:55:14+08:00</sent>
+    <status >Actual</status>
+    <msgType >Issue</msgType>
+    <source >MFC</source>
+    <dataid >C0032-002</dataid>
+    <scope >Public</scope>
+    <dataset >
+        <datasetInfo>
+            <datasetDescription>Thirty-Six Hours Weather Forecast</datasetDescription>
+            <issueTime>2018-06-04T11:00:00+08:00</issueTime>
+            <update>2018-06-04T10:55:14+08:00</update>
+</datasetInfo>
+        <datasetInfo>
+</datasetInfo>
+        <location>
+            <locationName>TAIPEI CITY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLEAR</parameterName>
+                        <parameterValue>7</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>32</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>33</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>50</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>NEW TAIPEI CITY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLEAR</parameterName>
+                        <parameterValue>7</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>32</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>33</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>10</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>50</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>TAOYUAN CITY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>32</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>33</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>TAICHUNG CITY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>CLEAR WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>34</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>34</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>31</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>34</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>31</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>28</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>10</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>TAINAN CITY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL SHOWERS</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL SHOWERS</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLEAR</parameterName>
+                        <parameterValue>7</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>33</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>31</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>32</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>31</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>28</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>28</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>10</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>KAOHSIUNG CITY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL SHOWERS</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL SHOWERS</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL SHOWERS</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>33</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>31</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>32</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>31</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>28</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>KEELUNG CITY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLEAR</parameterName>
+                        <parameterValue>7</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>CLEAR WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>34</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>28</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>32</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>28</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>HSINCHU COUNTY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLEAR</parameterName>
+                        <parameterValue>7</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>MOSTLY CLEAR</parameterName>
+                        <parameterValue>8</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>32</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>32</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>10</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>HSINCHU CITY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLEAR</parameterName>
+                        <parameterValue>7</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>MOSTLY CLEAR</parameterName>
+                        <parameterValue>8</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>31</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>28</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>31</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>28</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>MIAOLI COUNTY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLEAR</parameterName>
+                        <parameterValue>7</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLEAR</parameterName>
+                        <parameterValue>7</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>CLEAR WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>34</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>31</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>32</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>CHANGHUA COUNTY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLEAR</parameterName>
+                        <parameterValue>7</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLEAR</parameterName>
+                        <parameterValue>7</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>CLEAR WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>34</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>33</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>33</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>NANTOU COUNTY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>MOSTLY CLOUDY</parameterName>
+                        <parameterValue>5</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>34</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>33</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~EXTREMEL</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>10</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>50</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>YUNLIN COUNTY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>MOSTLY CLOUDY</parameterName>
+                        <parameterValue>5</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>33</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>33</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>10</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>60</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>CHIAYI COUNTY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>34</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>33</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>40</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>CHIAYI CITY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>35</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>31</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>34</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>31</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>10</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>60</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>PINGTUNG COUNTY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL SHOWERS</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL SHOWERS</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>35</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>35</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~EXTREMEL</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>40</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>10</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>YILAN COUNTY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>32</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>33</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>HUALIEN COUNTY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>18</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>MOSTLY CLOUDY</parameterName>
+                        <parameterValue>5</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>CLEAR WITH OCCASIONAL AFTERNOON THUNDERSHOWERS</parameterName>
+                        <parameterValue>34</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>32</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>32</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>25</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>40</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>40</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>TAITUNG COUNTY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL SHOWERS</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL SHOWERS</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY WITH OCCASIONAL SHOWERS</parameterName>
+                        <parameterValue>12</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>32</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>32</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>40</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>PENGHU COUNTY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>MOSTLY CLEAR</parameterName>
+                        <parameterValue>8</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>MOSTLY CLEAR</parameterName>
+                        <parameterValue>8</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>MOSTLY CLEAR</parameterName>
+                        <parameterValue>8</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>32</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>33</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT~EXTREMELY HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~EXTREMEL</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>KINMEN COUNTY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>MOSTLY CLEAR</parameterName>
+                        <parameterValue>8</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>MOSTLY CLOUDY</parameterName>
+                        <parameterValue>6</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>30</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>28</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>31</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>28</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>10</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>10</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+        <location>
+            <locationName>LIENCHIANG COUNTY</locationName>
+            <weatherElement>
+                <elementName>Wx</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLEAR</parameterName>
+                        <parameterValue>7</parameterValue>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>PARTLY CLOUDY</parameterName>
+                        <parameterValue>2</parameterValue>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MaxT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>27</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>29</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>MinT</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>26</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>24</parameterName>
+                        <parameterUnit>C</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>CI</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE</parameterName>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>COMFORTABLE~HOT</parameterName>
+</parameter>
+</time>
+</weatherElement>
+            <weatherElement>
+                <elementName>PoP</elementName>
+                <time>
+                    <startTime>2018-06-04T12:00:00+08:00</startTime>
+                    <endTime>2018-06-04T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-04T18:00:00+08:00</startTime>
+                    <endTime>2018-06-05T06:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>0</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+                <time>
+                    <startTime>2018-06-05T06:00:00+08:00</startTime>
+                    <endTime>2018-06-05T18:00:00+08:00</endTime>
+                    <parameter>
+                        <parameterName>20</parameterName>
+                        <parameterUnit>PERCENT</parameterUnit>
+</parameter>
+</time>
+</weatherElement>
+</location>
+</dataset>
+    <dataset >
+</dataset>
+</cwbopendata>

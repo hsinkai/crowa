@@ -1,0 +1,1 @@
+/CRSdata/dataIn/MMCDATA/AVHRR/sst.day.mean.2017.v2.nc
